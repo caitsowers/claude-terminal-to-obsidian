@@ -1,0 +1,10 @@
+{
+  "id": "dot-paste-cleaner",
+  "name": "Dot",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "Cleans up pasted text: strips ANSI escape codes, removes shared indentation, normalizes bullet glyphs, reflows hard-wrapped paragraphs into clean Markdown, and can turn paragraphs into a tidy bullet list.",
+  "author": "Caitlin Sowers",
+  "authorUrl": "https://github.com/caitsowers/dot-paste-cleaner",
+  "isDesktopOnly": false
+}
