@@ -8,7 +8,7 @@ const DEFAULT_SETTINGS = {
   normalizeBullets: true,
   straightenQuotes: false,
   reflowParagraphs: true,
-  bulletizeParagraphs: false,
+  bulletizeParagraphs: true,
 };
 
 // Bullet glyphs that should be normalized to "- " at the start of a line.

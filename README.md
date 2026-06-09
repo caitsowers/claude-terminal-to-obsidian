@@ -15,7 +15,7 @@ On paste, Dot applies these steps (each can be toggled on or off in settings):
 3. **Normalize bullet glyphs** — bullet characters at the start of a line (`•`, `◦`, `▪`, `‣`, `●`, `▸`, `►`, and more) become standard Markdown `- `.
 4. **Straighten curly quotes** *(off by default)* — converts curly quotes (`“ ” ‘ ’`) to straight ASCII quotes and `…` to `...`.
 5. **Reflow hard-wrapped paragraphs** — joins lines that were wrapped to a fixed width back into single flowing paragraphs and list items. Headings, blockquotes, lists, tables, horizontal rules, and fenced code blocks are left intact.
-6. **Convert paragraphs to bullets** *(off by default)* — turns each paragraph into a `- ` list item. Handy when pasting bulleted content whose bullet markers were lost in the copy. See [Bullet-aware pasting](#bullet-aware-pasting).
+6. **Convert paragraphs to bullets** *(on by default)* — turns each paragraph into a `- ` list item. Great for pasting AI-chat or bulleted content whose bullet markers were lost in the copy. Turn it off if you mostly paste normal prose and want plain paragraphs. See [Bullet-aware pasting](#bullet-aware-pasting).
 
 ## Example
 
@@ -29,7 +29,7 @@ Pasting hard-wrapped terminal/AI output like this:
   one clean line instead of several short ones.
 ```
 
-…lands in your note as two clean paragraphs (or, with **Convert paragraphs to bullets** on, two tidy bullets).
+…lands in your note as two tidy bullets (or, with **Convert paragraphs to bullets** turned off, two clean paragraphs).
 
 ## Bullet-aware pasting
 
@@ -50,9 +50,9 @@ Open **Settings → Community plugins → Dot** (gear icon). Each step above has
 | Normalize bullet glyphs | On | Replace bullet characters with `- ` |
 | Straighten curly quotes | Off | Curly quotes → ASCII, `…` → `...` |
 | Reflow hard-wrapped paragraphs | On | Join wrapped lines into single paragraphs/list items |
-| Convert paragraphs to bullets | Off | Turn each paragraph into a `- ` list item |
+| Convert paragraphs to bullets | On | Turn each paragraph into a `- ` list item |
 
-Leave **Convert paragraphs to bullets** off for normal prose; turn it on when you are pasting bullet-style content.
+**Convert paragraphs to bullets** is on by default, so a paste becomes a tidy bullet list. Turn it off when you are pasting normal prose and want plain paragraphs instead.
 
 ## Notes
 
