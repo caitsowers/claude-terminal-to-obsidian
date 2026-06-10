@@ -2,7 +2,7 @@
 
 **Dot cleans up text pasted from Claude (terminal) to Obsidian.**
 
-Text copied from a terminal, an AI chat, a PDF, or a code console often arrives messy: terminal color codes, a shared left margin that Obsidian misreads as a code block, fancy bullet characters, and paragraphs that are hard-wrapped into many short lines. Dot fixes all of that automatically on paste, so what lands in your note is clean Markdown.
+Text copied from Claude running in the terminal often arrives messy: terminal color codes, a shared left margin that Obsidian misreads as a code block, paragraphs that are hard-wrapped into many short lines. Dot fixes all of that automatically on paste, so what lands in your note is clean bullet list.
 
 It runs on every paste, uses the plain-text version of what you copied, and only takes over when it actually changes something.
 
